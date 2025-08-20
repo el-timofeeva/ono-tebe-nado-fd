@@ -83,10 +83,6 @@
   position: relative;
 }
 
-.aligned-text {
-  /* display: inline-block; */
-}
-
 .aligned-text_left {
   text-align: left;
 }
@@ -132,6 +128,7 @@
   background-color: transparent;
   border-style: solid;
   border-color: white;
+  cursor: pointer;
 }
 
 .lots {
@@ -171,25 +168,20 @@
   justify-content: space-between;
   padding: 48px 40px;
   height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
-  /* position: relative; */
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card__title {
